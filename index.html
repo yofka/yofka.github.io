@@ -4,5 +4,17 @@
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <script type="text/javascript">alert('Hello World');</script>
+
+<form method="post" action="sample.php">
+    <div>
+        <label>お名前 <input type="text" name="name" placeholder="山田太郎"></label>
+    </div>
+    <div>
+        <label>メールアドレス <input type="email" name="email" placeholder="a@a.com"></label>
+    </div>
+    <input type="submit" value="登録">
+    <input type="hidden" name="user_type" value="1">
+</form>
+
 </body>
 </html>
